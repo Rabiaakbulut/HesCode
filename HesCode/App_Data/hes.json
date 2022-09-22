@@ -1,0 +1,30 @@
+[
+    {
+        "hes": "G1B5-6449-15",
+        "status": "risky"
+    },
+    {
+        "hes": "G5B2-3442-88",
+        "status": "riskless"
+    },
+    {
+        "hes": "G1B5-6449-16",
+        "status": "risky"
+    },
+    {
+        "hes": "G1B5-6449-17",
+        "status": "riskless"
+    },
+    {
+        "hes": "G1B5-6449-18",
+        "status": "riskless"
+    },
+    {
+        "hes": "G1B5-6671-17",
+        "status": "riskless"
+    },
+    {
+        "hes": "G1C5-9449-34",
+        "status": "risky"
+    }
+]

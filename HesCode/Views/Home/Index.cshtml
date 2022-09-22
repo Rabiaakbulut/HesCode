@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <br />
+    <h3>Sorgulanacak Kodlar</h3>
+    @foreach (var item in ViewBag.givenCodes)
+    {
+        <p>@item</p>
+    }
+    <br /><hr />
+    <h4 style="text-decoration: underline red;">Riskli Kodlar</h4>
+    @foreach (var item in ViewBag.riskyCodes)
+    {
+        <p>@item</p>
+    }
+    <br />
+    <h4 style="text-decoration: underline green;">Risksiz Kodlar</h4>
+    @foreach (var item in ViewBag.risklessCodes)
+    {
+        <p>@item</p>
+    }
+    <br />
+    <h4 style="text-decoration: underline grey;">Geçersiz Kodlar</h4>
+    @foreach (var item in ViewBag.invalidCodes)
+    {
+        <p>@item</p>
+    }
+</div>
